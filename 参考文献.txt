@@ -1,0 +1,22 @@
+ハンバーガーメニュー
+https://www.asobou.co.jp/blog/web/css-menu
+
+CSS animation
+https://developer.mozilla.org/ja/docs/Web/CSS/animation
+
+パララックス
+https://gimmicklog.com/javascript/465/
+
+https://chocolat5.com/tips/mouse-parallax/
+
+ゆらゆら
+https://qiita.com/skwbr/items/6febb96e1b2831df28b4
+
+フェードイン
+https://liginc.co.jp/500530
+
+ふれーむ
+https://docs.google.com/presentation/d/1BdfwhTyUQjCP45BthTKexZ2NP993heUyy2Q3ThD0Cx4/edit#slide=id.gdf8504e990_2_10
+
+背景イメージ
+https://plus.amanaimages.com/items/FYI01172034
