@@ -92,7 +92,7 @@ h1{
 }
 
 a.menu{
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 tr{
@@ -103,7 +103,7 @@ tr{
 div.table{
     width: 50%;
     margin-top: 10px;
-    margin-left: 80px;
+    margin-left: 100px;
 }
 
 body{
@@ -131,4 +131,10 @@ body{
     position: absolute;
     left: 0;
     top: 0;
+}
+
+.flex{
+    margin-right: 100px;
+    display: flex;
+    justify-content: flex-start;
 }
