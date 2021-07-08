@@ -1,4 +1,3 @@
-/*メニューバー始まり*/
 .menu-btn {
     position: fixed;
     top: 10px;
@@ -88,9 +87,3 @@
     right: 80%;
 }
 /*ここまでメニューバー*/
-
-.layer{
-    background-image: url(bg.png);
-    background-attachment: fixed;
-    width: 200%;
-}

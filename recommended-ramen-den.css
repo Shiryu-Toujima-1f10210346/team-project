@@ -10,6 +10,7 @@
     align-items: center;
     z-index: 90;
     background-color: #3584bb;
+    border-radius: 20px;
 }
 .menu-btn span,
 .menu-btn span:before,
@@ -53,7 +54,7 @@
 .menu-content ul li a {
     display: block;
     width: 100%;
-    font-size: 15px;
+    font-size: 30px;
     box-sizing: border-box;
     color:#ffffff;
     text-decoration: none;
@@ -81,8 +82,85 @@
     z-index: 80;
     background-color: #3584bb;
     transition: all 0.5s;
+
 }
 #menu-btn-check:checked ~ .menu-content {
-    right: 0;
+    right: 80%;
 }
 /*ここまでメニューバー*/
+
+h1{
+    margin-left: 80px;
+}
+
+a.menu{
+    margin-left: 150px;
+    background-color: #eacfb1;
+}
+
+tr{
+    text-align: left;
+    background-color: #eacfb1;
+}
+
+div.table{
+    width: 50%;
+    margin-top: 10px;
+    margin-left: 150px;
+}
+
+body{
+    margin:0px;
+ }
+
+
+p{
+    font-size: 70px;
+    margin: 10px;
+}
+h1{
+    padding: 10px;
+    font-size: 70px;
+    color: #ffffff;
+}
+
+table{
+    font-size: 20px;
+    width: 500px;
+}
+
+td{
+    width: 350px;
+}
+
+body{
+    background-image: url("den.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#blackfilter{
+    background-color: rgba(0,0,0,0.6);
+    height: 850px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sideber{
+    width: 50%;
+}
+
+.content{
+    width: 50%;
+}
+iframe{
+    border-radius: 20px;
+}
+
+
+
+
