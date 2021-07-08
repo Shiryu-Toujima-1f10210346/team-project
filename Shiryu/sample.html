@@ -60,6 +60,14 @@
             duration:2000,
             distance: '50px',
         });
+        ScrollReveal().reveal('p',{
+    delay:100,
+    reset: true,
+    origin:'bottom',
+    viewFactor: 0.2,
+    duration:2000,
+    distance: '50px',
+});
         var layer = document.getElementById('layer');
         var parallax = new Parallax(layer, {
             clipRelativeInput: true, //要素の端にカーソルが達したら動きを止める
@@ -79,3 +87,4 @@
     </script>
 </body>
 </html>
+

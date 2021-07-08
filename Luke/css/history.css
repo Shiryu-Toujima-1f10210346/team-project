@@ -91,23 +91,16 @@ img{
     border-radius: 20px;
     width: 300px
 }
-.layer{
-    background-image: url(bg.png);
-    background-attachment: fixed;
-    width: 100%;
-}
 
 body{
-    margin:0px;
     font-size: 25px;
-  }
-  .layer img{
-    width: 100%;
+    color: whitesmoke;
+    background-image: url("歴史ページの背景２.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
   }
 
-  body{
-    background-color: #eacfb1;
-  }
 
 .container{
     display: flex;

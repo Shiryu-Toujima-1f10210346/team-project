@@ -33,19 +33,19 @@
     </header>
     <div class="container">
            <div class="left"><img src="pictures/ダウンロード.jpg" width="200" class="item3"></div>
-           <div class="item1"><br><br><span class="alert">1488年</span>日本初の中華麺「経帯麺」が食べられた。この麺にはかん水が使われてお<br>り、このレシピは現代のラーメンの麺とほぼ同じであった。</div>
+           <div class="item1"><br><br><span class="text"><span class="alert">1488年</span>日本初の中華麺「経帯麺」が食べられた。この麺にはかん水が使われており、<br>このレシピは現代のラーメンの麺とほぼ同じであった。</div></span>
     </div>
 
     <br><br>
 
     <div class="container">
-           <p class="item2"><div class="alert">1859年</div>開港により多くの外国人が移り住み、海外の食文化が流入する事となる。<br>これをきっかけにラーメンのルーツである中国の麺料理も日本に伝わる事となる。</p>
+           <span class= "item2"><p class="item2"><div class="alert">1859年</div>開港により多くの外国人が移り住み、海外の食文化が流入する事となる。<br>これをきっかけにラーメンのルーツである中国の麺料理も日本に伝わる事となる。</p></span>
     </div>
 
     <br><br>
 
     <div class="container">
-           <p class="item2"><div class="alert">1899年</div>居留地廃止に伴い、中国の麺料理を含め中国料理が広がっていく。</p>
+           <span class= "item2"><p class="item2"><div class="alert">1899年</div>居留地廃止に伴い、中国の麺料理を含め中国料理が広がっていく。</p></span>
     </div>
 
     <br>
@@ -101,7 +101,7 @@
     </div>
 
     <div class="container">
-           <div class="item5"><br><br><br><br><span class="alert">1967年</span>全国にラーメン店のフランチャイズ展開を開始し、わずか3年で500店舗、<br>ピーク時には約1,200店舗まで拡大した。</div>
+           <div class="item5"><br><br><br><br><span class="alert">1967年</span>全国にラーメン店のフランチャイズ展開を開始し、わずか3年で500店舗、ピーク時には約1,200店舗まで拡大した。</div>
            <div><div class="right"><img src="pictures/image.png" width="200" class="item4"></div></div>
     </div>
 
@@ -141,18 +141,19 @@
 
     <div class="container">
            <div><div class="left"><img src="pictures/濃厚魚介つけ麺.jpg" width="200" class="item3"></div></div>
-           <div class="item1"><br><br><br><span class="alert">2008~2010年</span>多くの種類のラーメンがブームになる。</div>
+           <div class="item1"><br><br><br><span class="alert">2008~2010年</span>多くの種類
+              のラーメンがブームになる。</div>
     </div>
 
     <br>
     
     <div class="container">
-           <div class="item5"><br><br><span class="alert">2015年</span><span class="alert2">「Japanese Soba Noodles 蔦（巣鴨）」</span>がミシュランガイドで世界初の1つ星を獲得する。</div>
+           <div class="item5"><br><br><span class= "text"><span class="alert">2015年</span><span class="alert2">「Japanese Soba Noodles 蔦（巣鴨）」</span>がミシュランガイドで世界初の1つ星を獲得する。</div></span>
            <div><div class="right"><img src="pictures/Japanese Soba Noodles 蔦（巣鴨）.jpg" width="200" class="item4"></div></div>
     </div>
     <script>
        ScrollReveal().reveal('.left',{
-           delay:100,
+           delay:200,
            reset: true,
            origin:'left',
            viewFactor: 0.2,
@@ -160,13 +161,73 @@
            distance: '50px',
        });
        ScrollReveal().reveal('.right',{
-           delay:100,
+           delay:200,
            reset: true,
            origin:'right',
            viewFactor: 0.2,
            duration:2000,
            distance: '50px',
        });
+       ScrollReveal().reveal('.item1',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+       ScrollReveal().reveal('.item2',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+       ScrollReveal().reveal('.item3',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+       ScrollReveal().reveal('.item4',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+       ScrollReveal().reveal('.item5',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+       ScrollReveal().reveal('.item6',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+       ScrollReveal().reveal('.item7',{
+           delay:200,
+           reset: true,
+           origin:'bottom',
+           viewFactor: 0.2,
+           duration:2000,
+           distance: '50px',
+       });
+
+
+
+
        var layer = document.getElementById('layer');
        var parallax = new Parallax(layer, {
            clipRelativeInput: true, //要素の端にカーソルが達したら動きを止める
@@ -186,3 +247,4 @@
    </script>
 </body>
 </html>
+

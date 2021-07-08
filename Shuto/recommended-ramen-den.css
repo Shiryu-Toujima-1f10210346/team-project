@@ -82,6 +82,7 @@
     z-index: 80;
     background-color: #3584bb;
     transition: all 0.5s;
+    opacity: 0.8;
 }
 #menu-btn-check:checked ~ .menu-content {
     right: 80%;
@@ -141,7 +142,7 @@ body{
 
 #blackfilter{
     background-color: rgba(0,0,0,0.6);
-    height: 700px;
+    height: 850px;
 }
 
 #container{
@@ -156,9 +157,9 @@ body{
 .content{
     width: 50%;
 }
-
-
-
+iframe{
+    border-radius: 20px;
+}
 
 
 
