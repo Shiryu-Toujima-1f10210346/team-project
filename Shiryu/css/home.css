@@ -82,6 +82,7 @@
     z-index: 80;
     background-color: #3584bb;
     transition: all 0.5s;
+    opacity: 0.8;
 }
 #menu-btn-check:checked ~ .menu-content {
     right: 80%;
