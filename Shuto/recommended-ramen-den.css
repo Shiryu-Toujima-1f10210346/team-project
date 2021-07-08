@@ -92,18 +92,19 @@ h1{
 }
 
 a.menu{
-    margin-left: 100px;
+    margin-left: 150px;
+    background-color: #eacfb1;
 }
 
 tr{
     text-align: left;
-    background-color: #db6371;
+    background-color: #eacfb1;
 }
 
 div.table{
     width: 50%;
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 body{
@@ -121,10 +122,20 @@ p{
 h1{
     padding: 10px;
     font-size: 70px;
+    color: #ffffff;
 }
 
 body{
     background-color: #eacfb1;
+    background-image: url("den.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#blackfilter{
+    background-color: rgba(0,0,0,0.6);
+    height: 700px;
 }
 
 .main{
@@ -133,10 +144,21 @@ body{
     top: 0;
 }
 
-.flex{
+#container{
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
 }
+
+.sideber{
+    width: 50%;
+}
+
+.content{
+    width: 50%;
+}
+
+
+
 
 
 
