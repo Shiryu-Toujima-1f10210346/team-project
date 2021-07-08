@@ -111,12 +111,9 @@ body{
     margin:0px;
  }
 
-.layer img{
-    width: 100%;
-    z-index: -1;
-}
+
 p{
-    font-size: 57px;
+    font-size: 70px;
     margin: 10px;
 }
 h1{
@@ -125,8 +122,16 @@ h1{
     color: #ffffff;
 }
 
+table{
+    font-size: 20px;
+    width: 500px;
+}
+
+td{
+    width: 350px;
+}
+
 body{
-    background-color: #eacfb1;
     background-image: url("den.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,12 +141,6 @@ body{
 #blackfilter{
     background-color: rgba(0,0,0,0.6);
     height: 700px;
-}
-
-.main{
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 #container{

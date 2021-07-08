@@ -92,6 +92,14 @@ h1{
     color: #ffffff;
 }
 
+table{
+    font-size: 20px;
+    width: 500px;
+}
+
+td{
+    width: 350px;
+}
 a.menu{
     margin-left: 150px;
     background-color:  #eacfb1;
@@ -109,33 +117,16 @@ div.table{
 }
 
 body{
-    background-image: url("norosi.jpg");
+    background-image: url("norosi.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    margin: 0px;
  }
 
-img{
-    width: 100%;
-    z-index: -1;
-}
-p{
-    font-size: 57px;
-    margin: 10px;
-}
 h1{
     padding: 10px;
     font-size: 70px;
-}
-
-body{
-    background-color: #eacfb1;
-}
-
-.main{
-    position: absolute;
-    left: 0;
-    top: 0;
 }
 
 #container{
