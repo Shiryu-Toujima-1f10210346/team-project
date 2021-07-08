@@ -81,12 +81,16 @@
     z-index: 80;
     background-color: #3584bb;
     transition: all 0.5s;
+    opacity: 0.8;
 }
 #menu-btn-check:checked ~ .menu-content {
     right: 80%;
 }
 /*ここまでメニューバー*/
-
+img{
+    border-radius: 20px;
+    width: 300px
+}
 .layer{
     background-image: url(bg.png);
     background-attachment: fixed;
@@ -95,6 +99,7 @@
 
 body{
     margin:0px;
+    font-size: 25px;
   }
   .layer img{
     width: 100%;
