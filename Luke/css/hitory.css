@@ -132,3 +132,7 @@ body{
 .item7 {
     padding-left: 30em;
 }
+
+.alert {
+    color: rgb(52, 144, 201);
+}
