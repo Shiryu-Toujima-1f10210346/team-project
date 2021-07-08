@@ -3,22 +3,85 @@
     <head>
         <meta charset="UTF-8">
         <title>recommeneded ramen shop</title>
+        <link rel="stylesheet" type="text/css" href="recommended-ramen-norosi.css">
     </head> 
 
     <body>
         <h1>狼煙 大宮店</h1>
-        <a href="https://r.gnavi.co.jp/5121dd460000/">ぐるなび</a>"
-        <table>
-            <tr><th>場所</th><td>埼玉県さいたま市大宮区下町1-25</td></tr>
-            <tr><th>アクセス</th><td>大宮駅東口 南銀方面 徒歩5~10分</td></tr>
-            <tr><th>電話番号</th><td>048-652-6799</td></tr>
-            <tr><th>定休日</th><td>不定休</td></tr>
-            <tr><th>平均予算</th><td>1000円</td></tr>
-        </table>
-            <h3>席・設備</h3>
-        <table>
-            <tr><th>禁煙・喫煙</th><td>店舗へお問い合わせください</td></tr>
-            <tr><th>携帯・Wi-FI・電源</th><td></td></tr>
-        </table>
+        <a class="menu" href="https://r.gnavi.co.jp/5121dd460000/">ぐるなび</a>
+        <div class="flex">
+            <div class="table">
+                <table>
+                    <tr><th>場所</th><td>埼玉県さいたま市大宮区下町1-25</td></tr>
+                    <tr><th>アクセス</th><td>大宮駅東口 南銀方面 徒歩5~10分</td></tr>
+                    <tr><th>電話番号</th><td>048-652-6799</td></tr>
+                    <tr><th>定休日</th><td>不定休</td></tr>
+                    <tr><th>平均予算</th><td>1000円</td></tr>
+                </table>
+                <h3>席・設備</h3>
+                <table>
+                    <tr><th>禁煙・喫煙</th><td>店舗へお問い合わせください</td></tr>
+                    <tr><th>携帯・Wi-FI・電源</th><td>店舗へお問い合わせください</td></tr>
+                </table>
+            </div>
+            <img src="norosi.jpg" width="400" height="300">
+        </div>
+
+        <header>
+            <div class="hamburger-menu">
+                <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+                <!--ここからメニュー-->
+                <div class="menu-content">
+                    <ul>
+                        <li>
+                            <a href="home.html">Top Page&nbsp;&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="history.html">History&nbsp;&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="how2make.html">How to make&nbsp;&nbsp;</a>
+                        </li>
+                        <li>
+                            <a href="reccomend.html">Reccomend&nbsp;&nbsp;</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--ここまでメニュー-->
+            </div>
+        </header>
+
+        <div id="layer">
+            <div data-depth="0.5" class="layer"><img src="..\Shiryu\bg.png">
+            </div>
+        </div>
+
+        <script>
+            ScrollReveal().reveal('h1',{
+                delay:100,
+                reset: true,
+                origin:'left',
+                viewFactor: 0.2,
+                duration:2000,
+                distance: '50px',
+            });
+            var layer = document.getElementById('layer');
+            var parallax = new Parallax(layer, {
+                clipRelativeInput: true, //要素の端にカーソルが達したら動きを止める
+                hoverOnly: true, //カーソルが要素の上にある場合のみ有効
+                invertX: true, //X軸の動きを反転。falseにするとマウスと同じ方向に動く
+                invertY: true, //Y軸の動きを反転。falseにするとマウスと同じ方向に動く
+                limitX: false, //X軸の動きを制限する
+                limitY: false, //Y軸の動きを制限する
+                scalarX: 10.0, //X軸の移動速度と範囲を増減
+                scalarY: 10.0, //Y軸の移動速度と範囲を増減
+                frictionX: .1, //X軸のレイヤーの速度。0.00〜1.00の範囲内で指定可能
+                frictionY: .1, //Y軸のレイヤーの速度。0.00〜1.00の範囲内で指定可能
+                originX: .5, //X軸のマウスの初期位置。デフォルトの0.5は画面または要素の中心
+                originY: .8, //Y軸マウスの初期位置。デフォルトの0.5は画面または要素の中心
+            
+            });
+        </script>
     </body>
 </html>

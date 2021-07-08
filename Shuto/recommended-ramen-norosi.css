@@ -110,7 +110,7 @@ body{
     margin:0px;
  }
 
-.layer img{
+img{
     width: 100%;
     z-index: -1;
 }
@@ -134,10 +134,7 @@ body{
 }
 
 .flex{
+    margin-right: 100px;
     display: flex;
     justify-content: flex-start;
 }
-
-
-
-
