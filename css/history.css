@@ -89,7 +89,7 @@
 /*ここまでメニューバー*/
 img{
     border-radius: 20px;
-    width: 300px
+    width: 300px;
 }
 
 body{
@@ -138,4 +138,7 @@ body{
 
 .alert2 {
     color: rgb(196, 35, 35);
+}
+.top{
+    text-align: center;
 }
