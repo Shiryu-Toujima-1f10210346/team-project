@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
     <head>
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
         <meta charset="UTF-0">
         <title>TopPage</title>
         <link rel="stylesheet" type="text/css" href="toppage.css">
@@ -37,9 +37,19 @@
                     <!--ここまでメニュー-->
                 </div>
             </header>
-    
-            <h1>Welcome to Ramen Pages!</h1>
+        <span id= "wrap"><span class="layer" data-depth="0.5"><h1>Welcome to Ramen Pages!</h1></span></span>
         </div>
+        <script>
+    var layer = document.getElementById('wrap');
+    var parallax = new Parallax(layer, {
+    scalarX: 10, //レイヤーの横移動の幅
+    scalarY: 10, //レイヤーの縦移動の幅
+    frictionX: 0.2, //移動の速度 0～1
+    frictionY: 0.2, //移動の速度 0～1
+    originX: 0.5, //マウス入力の横軸初期値,デフォルト0.5
+    originY: 0.5, //マウス入力の縦軸初期値,デフォルト0.5
+});
+        </script>
     </body>
 </html>
 
